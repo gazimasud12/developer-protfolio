@@ -1,5 +1,6 @@
 body{
     font-family: "Open Sans", sans-serif;
+    white-space: 0;
 }
 nav{
     padding: 0 200px;
@@ -43,4 +44,92 @@ nav h3 span{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
+
+/* Banner Css Start */
+
+.banner{
+    display: flex;
+    padding: 50px 20px 0px 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner .banner-text{
+    width: 500px;
+}
+
+.banner .banner-img{
+    width: 500px;
+}
+
+/* Banner Css End */
+
+
+/* About Css Start */
+
+.about{
+    margin-top: 100px;
+    
+    display: flex;
+    padding: 130px;
+    background-color: #FFF8F3;
+    flex-direction: column;
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.about .about-me{
+    text-align: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.about  .about-contact{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.what-i-do{
+    margin-top: 100px;
+    display: flex;
+    padding: 130px;
+    background-color: #FFF8F3;
+    flex-direction: column;
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.what-i-do .what-i-do-text{
+    text-align: center;
+    justify-content: center;
+  
+    
+}
+.what-i-do .services {
+    display: flex;
+   
+    gap: 20px;
+}
+.what-i-do .services .design{
+    
+    background: white;
+    
+}
+
+
+
+/* About Css End */
